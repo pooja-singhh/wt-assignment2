@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume and Bio-data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">My Resume</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="dark-mode-toggle">🌙</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Yashas Shetty!</h1>
+      <p class="p1">Web Developer | Creative Thinker | Problem Solver</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p class="p1">I'm a passionate web developer with expertise in creating dynamic and responsive websites. I enjoy solving challenges and learning new technologies.</p>
+    <p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGXUrmVWmcVYhyfqixbsVeL737knj-2TyOGg&s" alt="HTML">
+        <h3>HTML</h3>
+        <p>Expert in semantic and clean HTML5 coding.</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://images.javatpoint.com/csspages/images/css-tutorial.png" alt="CSS">
+        <h3>CSS</h3>
+        <p>Proficient in CSS3 animations and responsive designs.</p>
+      </div>
+      <div class="skill-card">
+        <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" alt="JavaScript">
+        <h3>JavaScript</h3>
+        <p>Experienced in building interactive web apps.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <h3>Project 1</h3>
+        <p class="p1">Developed a 2D brick breaker game using Java Swing, implementing paddle control, ball movement,
+          and collision detection.
+          Utilized KeyListener for user input and Timer for smooth gameplay updates.
+           Designed and rendered game components with custom graphics.
+           Integrated game logic for scoring, game start, and game over conditions.</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Project 2</h3>
+        <p class="p1">Developed a web-based music player using JavaScript, implementing custom doubly linked lists for
+          song navigation.
+        Integrated queue data structure to manage dynamic playlist additions.
+           Enabled seamless playback of MP3 files with controls for play/pause, next, and previous
+          functionalities.
+           Designed user-friendly interface to manage and play songs from a structured folder</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name</label> 
+      <input type="text" id="name" required> <br> <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" required> <br> <br>
+      <label for="message">Message</label>
+      <textarea id="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Yashas Shetty. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
